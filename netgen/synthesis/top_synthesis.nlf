@@ -1,0 +1,37 @@
+Release 14.7 - netgen P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis
+-ofmt verilog -sim top.ngc top_synthesis.v  
+
+Reading design 'top.ngc' ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+
+WARNING:NetListWriters:306 - Signal bus b<0>[56 : 0] on block round is not
+   reconstructed, because there are some missing bus signals.
+
+WARNING:NetListWriters:306 - Signal bus b<2>[58 : 10] on block round is not
+   reconstructed, because there are some missing bus signals.
+
+WARNING:NetListWriters:306 - Signal bus b<3>[57 : 1] on block round is not
+   reconstructed, because there are some missing bus signals.
+
+WARNING:NetListWriters:306 - Signal bus b<4>[57 : 9] on block round is not
+   reconstructed, because there are some missing bus signals.
+
+WARNING:NetListWriters:306 - Signal bus c<2><2>[52 : 20] on block round is not
+   reconstructed, because there are some missing bus signals.
+
+WARNING:NetListWriters:306 - Signal bus v0[31 : 0] on block padder is not
+   reconstructed, because there are some missing bus signals.
+Writing Verilog netlist file
+'C:\Users\Adam\Documents\repos\DAC_2019\Virtex5\SHA3_unencrypted_rev3\netgen\syn
+thesis\top_synthesis.v' ...
+INFO:NetListWriters:633 - The generated Verilog netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM simulation library for
+   correct compilation and simulation. 
+Number of warnings: 6
+Number of info messages: 1
+Total memory usage is 4411436 kilobytes
